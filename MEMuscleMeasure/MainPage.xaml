@@ -9,7 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Button" Margin="428,163,0,0" VerticalAlignment="Top" Height="169" Width="241"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" MappingMode="RelativeToBoundingBox">
+                <GradientStop Color="#FF587292"/>
+                <GradientStop Color="White" Offset="0.182"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="goToInformB" Content="Start muscle measurement " Margin="0,293,0,0" VerticalAlignment="Top" Height="39" Width="345" HorizontalAlignment="Center" Background="{ThemeResource SystemColorInactiveCaptionColor}" FontFamily="Verdana" FontWeight="Normal" FontSize="18" Foreground="#FFFFFDFD"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,344,0,0" Text="For technical personnel only" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Foreground="{ThemeResource SystemControlErrorTextForegroundBrush}"/>
+        <Image HorizontalAlignment="Left" Height="120" Margin="141,107,0,0" VerticalAlignment="Top" Width="473" Source="/Assets/MaEMMLogo.png"/>
+        <Button Content="Calibrate" Margin="0,368,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="31" Width="173" Background="{ThemeResource SystemColorInactiveCaptionBrush}" Foreground="White"/>
 
     </Grid>
 </Page>
