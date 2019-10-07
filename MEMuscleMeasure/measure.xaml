@@ -9,7 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid x:Name="backgroundGrid" Background="#FFFAF8F8"/>
+        <Grid x:Name="backgroundGrid" Background="#FFFAF8F8">
+            <Image x:Name="BackB" HorizontalAlignment="Left" Height="28" Margin="704,10,0,0" VerticalAlignment="Top" Width="66" Source="/Assets/ToBackKnap.PNG"/>
+        </Grid>
 
         <TextBlock x:Name="titleTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Measure" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="26" FontWeight="Bold" FontFamily="Verdana"/>
         <TextBlock x:Name="LengthTorqueSticktextBlock" HorizontalAlignment="Left" Margin="550,42,0,0" Text="Enter length on torque-stick" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14" Width="201"/>
