@@ -26,5 +26,15 @@ namespace MEMuscleMeasure
         {
             this.InitializeComponent();
         }
+
+        private void SaveMeasurementB_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(save));
+        }
+
+        private void BackB_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(inform));
+        }
     }
 }

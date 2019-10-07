@@ -26,5 +26,15 @@ namespace MEMuscleMeasure
         {
             this.InitializeComponent();
         }
+
+        private void goToInformB_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(inform));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(calibrate));
+        }
     }
 }
