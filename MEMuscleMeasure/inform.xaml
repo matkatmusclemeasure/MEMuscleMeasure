@@ -20,7 +20,7 @@
         <RadioButton x:Name="femaleRB" Content="Female" Margin="234,193,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="datePicker" Margin="139,245,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="475,64,0,0" Text="Specific comments:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana"/>
-        <TextBox x:Name="commentsTB" HorizontalAlignment="Left" Margin="475,86,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="154" Width="252"/>
+        <TextBox x:Name="commentsTB" HorizontalAlignment="Left" Margin="475,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="154" Width="252"/>
         <Rectangle HorizontalAlignment="Left" Height="125" Margin="475,249,0,0" Stroke="{ThemeResource AppBarItemBackgroundThemeBrush}" VerticalAlignment="Top" Width="252" Fill="{ThemeResource SystemColorInactiveCaptionBrush}" CanBeScrollAnchor="True" RenderTransformOrigin="0.565,0.4"/>
         <TextBlock HorizontalAlignment="Left" Margin="485,256,0,0" Text="Previous settings:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana"/>
         <TextBlock HorizontalAlignment="Left" Margin="486,292,0,0" Text="Upper arm:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="10"/>
