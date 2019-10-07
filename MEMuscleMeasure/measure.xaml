@@ -9,6 +9,21 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid x:Name="backgroundGrid" Background="#FFFAF8F8"/>
+
+        <TextBlock x:Name="titleTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Measure" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="26" FontWeight="Bold" FontFamily="Verdana"/>
+        <TextBlock x:Name="LengthTorqueSticktextBlock" HorizontalAlignment="Left" Margin="550,42,0,0" Text="Enter length on torque-stick" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14" Width="201"/>
+        <Button x:Name="StartMeasurementB" Content="Start measurement" Margin="550,108,0,0" VerticalAlignment="Top" Width="157" Background="{ThemeResource SystemColorInactiveCaptionColor}" FontFamily="Verdana"/>
+        <TextBox HorizontalAlignment="Left" Margin="550,63,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock x:Name="musclePowerTextBlock" HorizontalAlignment="Left" Margin="550,162,0,0" Text="Muscle force" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14"/>
+        <TextBox x:Name="MusclePowerTB" HorizontalAlignment="Left" Margin="550,184,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock x:Name="rateofForcetextBlock" HorizontalAlignment="Left" Margin="550,228,0,0" Text="Rate of force development" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14"/>
+        <TextBox x:Name="rateOfForceTB" HorizontalAlignment="Left" Margin="550,249,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <Button x:Name="StopMeasurementB" Content="Stop measurement" Margin="550,298,0,0" VerticalAlignment="Top" Width="157" Background="{ThemeResource SystemColorInactiveCaptionColor}" FontFamily="Verdana"/>
+        <Button x:Name="SaveMeasurementB" Content="Save measurement" Margin="550,340,0,0" VerticalAlignment="Top" Width="157" Background="{ThemeResource SystemColorInactiveCaptionColor}" FontFamily="Verdana"/>
+        <Button x:Name="ResetMeasurementB" Content="Reset measurement" Margin="550,382,0,0" VerticalAlignment="Top" Width="157" Background="{ThemeResource SystemColorInactiveCaptionColor}" FontFamily="Verdana"/>
+        <TextBlock HorizontalAlignment="Left" Margin="720,192,0,0" Text="Nm" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14" XYFocusUpNavigationStrategy="Auto"/>
+        <TextBlock HorizontalAlignment="Left" Margin="720,257,0,0" Text="Nm/s" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14" XYFocusUpNavigationStrategy="Auto"/>
 
     </Grid>
 </Page>
