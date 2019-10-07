@@ -28,7 +28,7 @@
         <TextBox x:Name="upperArmTB" HorizontalAlignment="Left" Margin="560,282,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="lowerArmTB" HorizontalAlignment="Left" Margin="560,322,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button x:Name="nextB" Content="Next" Margin="201,376,0,0" VerticalAlignment="Top" Height="31" Width="173" Background="{ThemeResource SystemColorInactiveCaptionBrush}" Foreground="#FF040000"/>
-        <Image x:Name="backB" HorizontalAlignment="Left" Height="28" Margin="704,10,0,0" VerticalAlignment="Top" Width="66" Source="/Assets/ToBackKnap.PNG"/>
+        <Image x:Name="backB" HorizontalAlignment="Left" Height="28" Margin="704,10,0,0" VerticalAlignment="Top" Width="66" Source="/Assets/ToBackKnap.PNG" Tapped="backB_Tapped"/>
 
     </Grid>
 </Page>
