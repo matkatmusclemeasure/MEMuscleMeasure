@@ -26,5 +26,10 @@ namespace MEMuscleMeasure
         {
             this.InitializeComponent();
         }
+
+        private void nextB_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(measure));
+        }
     }
 }
