@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEMuscleMeasureBusinessLogi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEMuscleMeasureDataLayer", "MEMuscleMeasureData\MEMuscleMeasureDataLayer.csproj", "{4207468A-657A-441F-A1C8-3B009623CD7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEMuscleMeasureTest.Unit", "MEMuscleMeasure.Test\MEMuscleMeasureTest.Unit.csproj", "{9960491C-A840-4E93-97FC-970FF05B81A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,26 @@ Global
 		{4207468A-657A-441F-A1C8-3B009623CD7E}.Release|x64.Build.0 = Release|x64
 		{4207468A-657A-441F-A1C8-3B009623CD7E}.Release|x86.ActiveCfg = Release|x86
 		{4207468A-657A-441F-A1C8-3B009623CD7E}.Release|x86.Build.0 = Release|x86
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|ARM.Build.0 = Debug|ARM
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|ARM64.Build.0 = Debug|ARM64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|x64.ActiveCfg = Debug|x64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|x64.Build.0 = Debug|x64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|x86.ActiveCfg = Debug|x86
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Debug|x86.Build.0 = Debug|x86
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|ARM.ActiveCfg = Release|ARM
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|ARM.Build.0 = Release|ARM
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|ARM64.ActiveCfg = Release|ARM64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|ARM64.Build.0 = Release|ARM64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|x64.ActiveCfg = Release|x64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|x64.Build.0 = Release|x64
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|x86.ActiveCfg = Release|x86
+		{9960491C-A840-4E93-97FC-970FF05B81A8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
