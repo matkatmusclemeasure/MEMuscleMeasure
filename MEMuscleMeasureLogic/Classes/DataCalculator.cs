@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MEMuscleMeasureLogic
 {
-    public class Class1
+    class DataCalculator
     {
     }
 }

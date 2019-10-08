@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MEMuscleMeasureData
+namespace MEMuscleMeasureLogic
 {
-    public class Class1
+    interface IDataPresenter
     {
     }
 }
