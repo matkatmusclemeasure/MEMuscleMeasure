@@ -32,7 +32,7 @@
         <TextBox HorizontalAlignment="Left" Margin="394,378,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
         <TextBlock HorizontalAlignment="Left" Margin="289,348,0,0" Text="Upper arm:" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" FontFamily="Verdana" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="289,385,0,0" Text="Lower arm:" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" FontSize="14" FontFamily="Verdana"/>
-        <Button x:Name="saveB" Content="Save" Margin="556,378,0,0" VerticalAlignment="Top" Height="31" Width="173" Background="{ThemeResource SystemColorInactiveCaptionBrush}" Foreground="#FF040000" Click="nextB_Click"/>
+        <Button x:Name="saveB" Content="Save" Margin="556,378,0,0" VerticalAlignment="Top" Height="31" Width="173" Background="{ThemeResource SystemColorInactiveCaptionBrush}" Foreground="#FF040000"/>
 
     </Grid>
 </Page>
