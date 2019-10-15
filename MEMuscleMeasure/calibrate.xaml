@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid x:Name="backgroundGrid" Background="#FFFEFAFA">
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Calibrate" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="26" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Calibrate" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Verdana" FontSize="26" FontWeight="Bold" Foreground="#FF040404"/>
         <Image HorizontalAlignment="Left" Height="28" Margin="704,10,0,0" VerticalAlignment="Top" Width="66" Source="/Assets/ToBackKnap.PNG" Tapped="Image_Tapped"/>
 
     </Grid>
